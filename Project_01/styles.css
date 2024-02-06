@@ -1,6 +1,13 @@
 body {background-color: rgb(0 0 0);}
 
-h1 {color: white;}
+h1 {
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: auto;
+}
+
 
 h3 {color: white;}
 
@@ -22,4 +29,7 @@ a:visited {color: white;}
 
 img{
     width: calc(736px / 2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
