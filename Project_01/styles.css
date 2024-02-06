@@ -10,9 +10,15 @@ p {
     margin-right: 100px;
 }
 
+.center { 
+    justify-content: center;
+}
+
 a:link {color: white;}
 
 a:visited {color: white;}
+
+
 
 img{
     width: calc(736px / 2);
