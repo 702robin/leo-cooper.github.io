@@ -7,7 +7,7 @@ h1 {
     margin-top: 100px;
 }
 
-h3 {
+h2 {
     color: white;
     text-align: center;
     margin-top: 150px;
@@ -19,25 +19,18 @@ p {
     font-size: 18pt;
     margin-left: 300px;
     margin-right: 300px;
+    text-indent: 2em;
 }
 
 .center { 
     justify-content: center;
 }
 
-a:link {
+a:link, a:visited {
     color: white;
     text-align: right;
-}
-
-a:visited {
-    color: white;
-    text-align: right;
-}
-
-body {
-    diplay: flex;
-    
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 img{
