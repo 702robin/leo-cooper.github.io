@@ -7,27 +7,38 @@ h1 {
     margin-top: 100px;
 }
 
-
 h3 {
     color: white;
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 p {
     color: white;
-    margin-left: 100px;
-    margin-right: 100px;
+    font-size: 18pt;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .center { 
     justify-content: center;
 }
 
-a:link {color: white;}
+a:link {
+    color: white;
+    text-align: right;
+}
 
-a:visited {color: white;}
+a:visited {
+    color: white;
+    text-align: right;
+}
 
-
+body {
+    diplay: flex;
+    
+}
 
 img{
     width: calc(736px / 2);
