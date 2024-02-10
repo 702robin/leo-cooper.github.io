@@ -1,6 +1,6 @@
 .hero {
     display: flex;
-    column-gap: 25px;
+    column-gap: 50px;
 }
 
 body {
@@ -57,18 +57,19 @@ h1 {
 h2 {
     color: white;
     font: Roboto Mono;
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    font-size: 50pt;
+    text-align: left;
+    margin-bottom: 150px;
+    margin-left: 585px;
 }
 
 p {
     color: white;
     font: Roboto Mono;
     font-size: 18pt;
-    margin-left: 300px;
-    margin-right: 300px;
-    text-indent: 2em;
+    width: 500px;
+    margin-left: 585px;
+    text-indent: 25px;
 }
 
 a:link, a:visited {
