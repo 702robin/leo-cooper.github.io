@@ -3,6 +3,14 @@
     column-gap: 50px;
 }
 
+.nav {
+    display: flex;
+    column-gap: 50px;
+    text-align: center;
+    font-size: 20pt;
+    
+}
+
 body {
     background-color: rgb(0 0 0);
 }
@@ -76,10 +84,10 @@ p:first-of-type {
     text-indent: 0;
   }
 
+
 a:link, a:visited {
     color: white;
     width: 100%;
-    text-align: right;
     margin-bottom: 100px;
     margin-top: 100px;
     text-decoration: none;
