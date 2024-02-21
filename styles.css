@@ -40,3 +40,12 @@ a, a:visited {
 a:hover {
     color:#ff401f;
 }
+
+img {
+    width: 110%;
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    mix-blend-mode: mulitply;
+    opacity: 5%;
+}
