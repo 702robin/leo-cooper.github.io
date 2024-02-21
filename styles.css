@@ -1,0 +1,42 @@
+.jacquarda-bastarda {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #002254;
+}
+
+h1 {
+    font-family: "Jacquarda Bastarda 9";
+    font-size: 12vw;
+    text-align: left;
+    line-height: 150pt;
+    color: #ff401f;
+    position: fixed;
+    top: -10vh;
+    margin-left: 35px;
+
+}
+
+.sites {
+    line-height: 4vh;
+    position: absolute;
+    text-align: right;
+    right: 3vw;
+    bottom: 3vw;
+}
+
+a, a:visited {
+    font-family: Helvetica;
+    color: white;
+    font-weight: 1000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vw;
+}
+
+a:hover {
+    color:#ff401f;
+}

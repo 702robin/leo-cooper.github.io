@@ -1,0 +1,14 @@
+img {
+    width: 100%;
+    position: absolute;
+}
+
+.cover {
+    mix-blend-mode: multiply;
+    transition: opacity 1s ease-in 100ms;
+}
+
+.cover:hover {
+    mix-blend-mode: multiply;
+    opacity: 0%;
+}

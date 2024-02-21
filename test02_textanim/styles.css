@@ -1,0 +1,27 @@
+html, body {
+    font-family: sans-serif;
+    background: #12161F;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  a.scramble {
+    text-align: center;
+    display: inline-block;
+    line-height: 6em;
+    width: 240px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #42A9DF;
+    color: #42A9DF;
+    font-size: .65em;
+    letter-spacing: .5em;
+    text-decoration: none;
+  }
