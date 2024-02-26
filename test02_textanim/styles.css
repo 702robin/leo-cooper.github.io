@@ -1,46 +1,171 @@
-#textanim {
-	background-color: #051E3E;
-	height: 100vh;
-	color: white;
-	display: flex;
+/*set */
+.one, .two, .three, .four, .five {
+	/* background-color: black; */
+	color: black;
 	justify-content: center;
 	align-items: center;
+	/* padding:10px; */
+	/* width: 50vw; */
+	font-family: "Space Mono", monospace;
+  	font-weight: 400;
+  	font-style: normal;
 }
 
-#one {
-	animation: pulse .5s;
+
+.one::after {
+	content: "Once";
+	animation: cycleone 1.5s;
+	animation-iteration-count: infinite;
 }
 
-@keyframes pulse {
-	0% {
-	color: #051E3E;
-	}
-	10% {
-		color: #051E3E;
-	}
-	30% {
-		color: white;
-	}
-	50% {
-		color: #051E3E;
-	}
-	60% {
-		color: #051E3E;
-	}
-	80% {
-		color: white;
-	}
-	100% {
-		color: #051E3E;
-	}
+@keyframes cycleone {
+	0% {content: "{!@)";}
+	10% {content: "!%#@";}
+	20% {content: "@$%!";}
+	30% {content: "#&*}";}
+	40% {content: "$%)^";}
+	50% {content: "%<{}";}
+	60% {content: "^#)@";}
+	70% {content: "&#@^";}
+	80% {content: "*:']";}
+	90% {content: "()+]";}
+	100% {content: ")@4[";}
 }
 
-#one:after {
-	content: "";
-	animation: spin 5s linear;
+.one:hover::after {
+	animation: stopone 1s;
+	animation-iteration-count: infinite;
 }
 
-@keyframes spin {
-  0% { content:"one"; }
-  100% { content:"two"; }
+@keyframes stopoone {
+	0% {content: "Once";}
+	100% {content: "Once";}
+}
+
+/* ------------------- */
+
+.two::after {
+	content: "a";
+	animation: cycletwo 1.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes cycletwo {
+	0% {content: "{";}
+	10% {content: "@";}
+	20% {content: "$";}
+	30% {content: "}";}
+	40% {content: "^";}
+	50% {content: "}";}
+	60% {content: "^";}
+	70% {content: "&";}
+	80% {content: "]";}
+	90% {content: "+";}
+	100% {content: "@";}
+}
+
+.two:hover::after {
+	animation: stoptwo 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes stoptwo {
+	0% {content: "a";}
+	100% {content: "a";}
+}
+
+/* ------------------- */
+
+.three::after {
+	content: "guy";
+	animation: cyclethree 1.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes cyclethree {
+	0% {content: "&!{";}
+	10% {content: "@)@";}
+	20% {content: "${>";}
+	30% {content: "}?+";}
+	40% {content: "^%*";}
+	50% {content: "})*";}
+	60% {content: "^+#";}
+	70% {content: "&#!";}
+	80% {content: ")%]";}
+	90% {content: "+#@";}
+	100% {content: "@}|";}
+}
+
+.three:hover::after {
+	animation: stopthree 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes stopthree {
+	0% {content: "guy";}
+	100% {content: "guy";}
+}
+
+/* ------------------- */
+
+.four::after {
+	content: "stood";
+	animation: cyclefour 1.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes cyclefour {
+	0% {content: "#%@!{";}
+	10% {content: "@^$@*";}
+	20% {content: "${]}@";}
+	30% {content: "}$@)(";}
+	40% {content: "^+)!*";}
+	50% {content: "+][$}";}
+	60% {content: "^*!)#";}
+	70% {content: "&!$*)";}
+	80% {content: "{|+%]";}
+	90% {content: "#!*)+";}
+	100% {content: "@>?#$";}
+}
+
+.four:hover::after {
+	animation: stopfour 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes stopfour {
+	0% {content: "stood";}
+	100% {content: "stood";}
+}
+
+/* ------------------- */
+
+.five::after {
+	content: "all";
+	animation: cyclefive 1.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes cyclefive {
+	0% {content: "{!@";}
+	10% {content: "@}+";}
+	20% {content: "$?'";}
+	30% {content: "-}=";}
+	40% {content: "^$*";}
+	50% {content: "},>";}
+	60% {content: "^}|";}
+	70% {content: "&@)";}
+	80% {content: "];]";}
+	90% {content: "++%";}
+	100% {content: "@,.";}
+}
+
+.five:hover::after {
+	animation: stopfive 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes stopfive {
+	0% {content: "all";}
+	100% {content: "all";}
 }
