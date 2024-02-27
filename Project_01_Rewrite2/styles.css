@@ -2,6 +2,10 @@ body {
     cursor: url('http://www.rw-designer.com/cursor-extern.php?id=2318'), auto;
 }
 
+.hero {
+    position: absolute;
+    top: 12vh;
+}
 
 .previous {
     position: fixed;
@@ -24,18 +28,6 @@ a,a:visited {
 a:hover {
     color: red;
     cursor: url('http://www.rw-designer.com/cursor-extern.php?id=2323'), auto;
-}
-
-.hero {
-font-family: "Space Mono", monospace;
-font-weight: 700;
-font-style: normal;
-font-size: 10vw;
-
-display: flex;
-line-height: 10vw;
-justify-content: center;
-text-align: left;
 }
 
 .first:after {
@@ -72,6 +64,7 @@ text-align: left;
     justify-content: left;
     text-align: left;
     padding-left: 28vw;
+    
 
     animation: second 1.25s;
     content: "Scanner";
@@ -122,9 +115,12 @@ h2 {
     font-size: 10vw;
     
     display: flex;
+    line-height: 10vw;
     justify-content: left;
     text-align: left;
     padding-left: 28vw;
+    padding-top: 3.75vw;
+
 }
 
 .para {
@@ -135,9 +131,10 @@ h2 {
 
     display: inline-block;
     justify-content: left;
+    padding-top: 5vh;
     padding-right: 28vw;
     padding-left: 28vw;
-    padding-bottom: 50vw;
+    padding-bottom: 10vw;
     text-align: left;
     text-justify: inter-word;
     
@@ -507,6 +504,36 @@ h2 {
 @keyframes stopThe {
     0% {content: "The";}
     100% {content: "The";}
+}
+
+.At::after {
+    content: "At";
+    animation: The 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes At {
+    0% {content: "!*";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "<}";}
+	40% {content: "^!";}
+	50% {content: "`}";}
+	60% {content: "^#";}
+	70% {content: "=#";}
+	80% {content: ":~";}
+	90% {content: "*=";}
+	100% {content: ">;";}
+}
+.At:hover::after {
+    animation: stopAt 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopThe {
+    0% {content: "At";}
+    100% {content: "At";}
 }
 
 .doctor::after {
@@ -2849,3 +2876,92 @@ h2 {
     100% {content: "like";}
 }
 
+.California::after {
+    content: "California";
+    animation: like 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes California {
+    0% {content: "@!*%$(@$#(";}
+	10% {content: "[!{@#}$|+;";}
+	20% {content: ",'>;@$(!)@";}
+	30% {content: "*!^~|.<@!;";}
+	40% {content: "-+#)*%$!~|";}
+	50% {content: "<;.(!*@[;*";}
+	60% {content: "[#%*!)~+!#";}
+	70% {content: "<;{|{]>?$+";}
+	80% {content: "$*#$)*!@!#";}
+	90% {content: "`}:%!*@()?";}
+	100% {content: ">@;<:>.';-";}
+}
+.California:hover::after {
+    animation: stoplCalifornia 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopCalifornia {
+    0% {content: "California";}
+    100% {content: "California";}
+}
+
+.best::after {
+    content: "best";
+    animation: best 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes best {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.best:hover::after {
+    animation: stopbest 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopbest {
+    0% {content: "best";}
+    100% {content: "best";}
+}
+
+.As::after {
+    content: "As";
+    animation: As 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes As {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.As:hover::after {
+    animation: stopAs 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopAs {
+    0% {content: "As";}
+    100% {content: "As";}
+}
