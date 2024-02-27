@@ -1,0 +1,2851 @@
+body {
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=2318'), auto;
+}
+
+
+.previous {
+    position: fixed;
+    bottom: 50%;
+    left: 32px;
+}
+
+.next {
+    position: fixed;
+    bottom: 50%;
+    right: 32px;
+}
+
+a,a:visited {
+    text-decoration: none;
+    color: black;
+    font-size: 36pt;
+}
+
+a:hover {
+    color: red;
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=2323'), auto;
+}
+
+.hero {
+font-family: "Space Mono", monospace;
+font-weight: 700;
+font-style: normal;
+font-size: 10vw;
+
+display: flex;
+line-height: 10vw;
+justify-content: center;
+text-align: left;
+}
+
+.first:after {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10vw;
+
+    display: flex;
+    line-height: 10vw;
+    justify-content: left;
+    text-align: left;
+    padding-left: 28vw;
+    padding-top: 5vw;
+
+    animation: first 1s;
+    content: "A";
+}
+
+@keyframes first{
+    0% {opacity: 0; content: "@";}
+	50% {opacity: .5; content: "%";}
+	100% {opacity: 1; content: "A";}
+}
+
+.second:after {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10vw;
+
+    display: flex;
+    line-height: 10vw;
+    justify-content: left;
+    text-align: left;
+    padding-left: 28vw;
+
+    animation: second 1.25s;
+    content: "Scanner";
+}
+
+@keyframes second{
+    0% {opacity: 0; content: "+[?^<*%";}
+    25% {opacity: 0; content: "_=;</^#";}
+	50% {opacity: .25; content: "*=$@|?,";}
+    75% {opacity: .50; content: "@%^:.[!";}
+	100% {opacity: 1; content: "Scanner";}
+}
+
+.third:after {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10vw;
+
+    display: flex;
+    line-height: 10vw;
+    justify-content: left;
+    text-align: left;
+    padding-left: 28vw;
+
+    animation: third 1.5s;
+    content: "Darkly";
+}
+
+@keyframes third{
+    0% {opacity: 0; content: "^*+[%]";}
+    10% {opacity: 0; content: "&;]<?+";}
+    20% {opacity: 0; content: "(&!@#>";}
+    30% {opacity: 0; content: "+;_^:";}
+    40% {opacity: 0; content: "/)$(@:";}
+	50% {opacity: .2; content: "!&@{%|";}
+	60% {opacity: .3; content: "),|&@$";}
+    70% {opacity: .4; content: ".'}^*;";}
+    80% {opacity: .5; content: "=(*$|@";}
+    90% {opacity: .75; content: "[!=}|.";}
+	100% {opacity: 1; content: "Darkly";}
+}
+
+h2 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10vw;
+    
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding-left: 28vw;
+}
+
+.para {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-variant-numeric: tabular-nums;
+
+    display: inline-block;
+    justify-content: left;
+    padding-right: 28vw;
+    padding-left: 28vw;
+    padding-bottom: 50vw;
+    text-align: left;
+    text-justify: inter-word;
+    
+}
+
+
+
+/* body animations start here */
+/* body animations start here */
+/* body animations start here */
+
+.Once::after {
+    content: "Once";
+    animation: Once 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes Once {
+	0% {content: "{!@)";}
+	10% {content: "!%#@";}
+	20% {content: "@$%!";}
+	30% {content: "#&*}";}
+	40% {content: "$%)^";}
+	50% {content: "%<{}";}
+	60% {content: "^#)@";}
+	70% {content: "&#@^";}
+	80% {content: "*:']";}
+	90% {content: "()+]";}
+	100% {content: ")@4[";}
+}
+.Once:hover::after {
+    animation: stopOnce 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopOnce {
+    0% {content: "Once";}
+    100% {content: "Once";}
+}
+
+.a::after {
+    content: "a";
+    animation: a 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes a {
+	0% {content: "!";}
+	10% {content: "%";}
+	20% {content: "@";}
+	30% {content: "*";}
+	40% {content: "^";}
+	50% {content: "<";}
+	60% {content: ")";}
+	70% {content: "?";}
+	80% {content: "*";}
+	90% {content: "]";}
+	100% {content: "+";}
+}
+.a:hover::after {
+    animation: stopa 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopa {
+    0% {content: "a";}
+    100% {content: "a";}
+}
+
+.guy::after {
+    content: "guy";
+    animation: guy 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes guy {
+	0% {content: "&!{";}
+	10% {content: "@)@";}
+	20% {content: "${>";}
+	30% {content: "}?+";}
+	40% {content: "^%*";}
+	50% {content: "})*";}
+	60% {content: "^+#";}
+	70% {content: "&#!";}
+	80% {content: ")%]";}
+	90% {content: "+#@";}
+	100% {content: "@}|";}
+}
+.guy:hover::after {
+    animation: stopguy 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopguy {
+    0% {content: "guy";}
+    100% {content: "guy";}
+}
+
+.stood::after {
+    content: "stood";
+    animation: stood 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes stood {
+	0% {content: "#%@!{";}
+	10% {content: "@^$@*";}
+	20% {content: "${]}@";}
+	30% {content: "}$@)(";}
+	40% {content: "^+)!*";}
+	50% {content: "+][$}";}
+	60% {content: "^*!)#";}
+	70% {content: "&!$*)";}
+	80% {content: "{|+%]";}
+	90% {content: "#!*)+";}
+	100% {content: "@>?#$";}
+}
+.stood:hover::after {
+    animation: stopstood 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopstood {
+    0% {content: "stood";}
+    100% {content: "stood";}
+}
+
+.all::after {
+    content: "all";
+    animation: all 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes all {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-|";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.all:hover::after {
+    animation: stopall 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopall {
+    0% {content: "all";}
+    100% {content: "all";}
+}
+
+.day::after {
+    content: "day";
+    animation: day 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes day {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")|'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.day:hover::after {
+    animation: stopday 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopday {
+    0% {content: "day";}
+    100% {content: "day";}
+}
+
+.shaking::after {
+    content: "shaking";
+    animation: shaking 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes shaking {
+    0% {content: "^%+),~&";}
+	10% {content: "|+?|”#’";}
+	20% {content: "~:^.@&@";}
+	30% {content: "&;(#&|+";}
+	40% {content: "})=”|-;";}
+	50% {content: "^)@<’*,";}
+	60% {content: "[+@’+=%";}
+	70% {content: "(’>?%#^";}
+	80% {content: "<.`&’;$";}
+	90% {content: "_`|//=’";}
+	100% {content: "-,>#~$~";}
+}
+.shaking:hover::after {
+    animation: stopshaking 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopshaking {
+    0% {content: "shaking";}
+    100% {content: "shaking";}
+}
+
+.bugs::after {
+    content: "bugs";
+    animation: bugs 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes bugs {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "@*@;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.bugs:hover::after {
+    animation: stopbugs 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopbugs {
+    0% {content: "bugs";}
+    100% {content: "bugs";}
+}
+
+.from::after {
+    content: "from";
+    animation: from 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes from {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@{;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.from:hover::after {
+    animation: stopfrom 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopfrom {
+    0% {content: "from";}
+    100% {content: "from";}
+}
+
+.his::after {
+    content: "his";
+    animation: his 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes his {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")|'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.his:hover::after {
+    animation: stophis 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophis {
+    0% {content: "his";}
+    100% {content: "his";}
+}
+
+.hair::after {
+    content: "hair";
+    animation: hair 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes hair {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@;!";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.hair:hover::after {
+    animation: stophair 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophair {
+    0% {content: "hair";}
+    100% {content: "hair";}
+}
+
+.The::after {
+    content: "The";
+    animation: The 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes The {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: "-|'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.The:hover::after {
+    animation: stopThe 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopThe {
+    0% {content: "The";}
+    100% {content: "The";}
+}
+
+.doctor::after {
+    content: "doctor";
+    animation: doctor 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes doctor {
+    0% {content: "![}::,";}
+	10% {content: "<#$|:%";}
+	20% {content: ".%}’!$";}
+	30% {content: "@`,;@[";}
+	40% {content: "-[}+@~";}
+	50% {content: ":?@;/>";}
+	60% {content: "}^?]`~";}
+	70% {content: "|[!;>;";}
+	80% {content: "=<”@|`";}
+	90% {content: "`**-#~";}
+	100% {content: "+{!}:{";}
+}
+.doctor:hover::after {
+    animation: stopdoctor 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopdoctor {
+    0% {content: "doctor";}
+    100% {content: "doctor";}
+}
+
+.told::after {
+    content: "told";
+    animation: told 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes told {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "!*@;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.told:hover::after {
+    animation: stoptold 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoptold {
+    0% {content: "told";}
+    100% {content: "told";}
+}
+
+.him::after {
+    content: "him";
+    animation: him 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes him {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")|'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.him:hover::after {
+    animation: stophim 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophim {
+    0% {content: "him";}
+    100% {content: "him";}
+}
+
+.there::after {
+    content: "there";
+    animation: there 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes there {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[+~|";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.there:hover::after {
+    animation: stopthere 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopthere {
+    0% {content: "there";}
+    100% {content: "there";}
+}
+
+.were::after {
+    content: "were";
+    animation: were 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes were {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@;!";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.were:hover::after {
+    animation: stopwere 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopwere {
+    0% {content: "were";}
+    100% {content: "were";}
+}
+
+.no::after {
+    content: "no";
+    animation: no 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes no {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.no:hover::after {
+    animation: stopno 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopno {
+    0% {content: "no";}
+    100% {content: "no";}
+}
+
+.in::after {
+    content: "in";
+    animation: in 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes in {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.in:hover::after {
+    animation: stopin 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopin {
+    0% {content: "in";}
+    100% {content: "in";}
+}
+
+.After::after {
+    content: "After";
+    animation: After 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes After {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.After:hover::after {
+    animation: stopAfter 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopAfter {
+    0% {content: "After";}
+    100% {content: "After";}
+}
+
+.he::after {
+    content: "he";
+    animation: he 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes he {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.he:hover::after {
+    animation: stophe 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophe {
+    0% {content: "he";}
+    100% {content: "he";}
+}
+
+.he::after {
+    content: "he";
+    animation: he 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes he {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.he:hover::after {
+    animation: stophe 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophe {
+    0% {content: "he";}
+    100% {content: "he";}
+}
+
+.had::after {
+    content: "had";
+    animation: had 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes had {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.had:hover::after {
+    animation: stophad 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophad {
+    0% {content: "had";}
+    100% {content: "had";}
+}
+
+.taken::after {
+    content: "taken";
+    animation: taken 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes taken {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.taken:hover::after {
+    animation: stoptaken 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoptaken {
+    0% {content: "taken";}
+    100% {content: "taken";}
+}
+
+.shower::after {
+    content: "shower";
+    animation: shower 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes shower {
+    0% {content: "![}::,";}
+	10% {content: "<#$|:%";}
+	20% {content: ".%}’!$";}
+	30% {content: "@`,;@[";}
+	40% {content: "-[+@~|";}
+	50% {content: ":?@;/>";}
+	60% {content: "}^?]`~";}
+	70% {content: "|[!;>;";}
+	80% {content: "=<”@|`";}
+	90% {content: "`**-#~";}
+	100% {content: "+{!}:{";}
+}
+.shower:hover::after {
+    animation: stopshower 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopshower {
+    0% {content: "shower";}
+    100% {content: "shower";}
+}
+
+.for::after {
+    content: "for";
+    animation: for 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes for {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.for:hover::after {
+    animation: stopfor 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopfor {
+    0% {content: "for";}
+    100% {content: "for";}
+}
+
+.eight::after {
+    content: "eight";
+    animation: eight 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes eight {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.eight:hover::after {
+    animation: stopeight 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopeight {
+    0% {content: "eight";}
+    100% {content: "eight";}
+}
+
+.hours::after {
+    content: "hours";
+    animation: hours 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes hours {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.hours:hover::after {
+    animation: stophours 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophours {
+    0% {content: "hours";}
+    100% {content: "hours";}
+}
+
+.standing::after {
+    content: "standing";
+    animation: standing 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes standing {
+	0% {content: "!$#%!;{^";}
+	10% {content: "*?>,?:`+";}
+	20% {content: ".[/~*%?'";}
+	30% {content: "),.[/~*$";}
+	40% {content: "=/#_`^)*";}
+	50% {content: "~<!)/](~";}
+	60% {content: "/,@]#*$^";}
+	70% {content: ")*.?!)*’";}
+	80% {content: ";_<}&’;$";}
+	90% {content: "%(=/&%*+";}
+	100% {content: "_]%;``+|";}
+}
+.standing:hover::after {
+    animation: stopstanding 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopstanding {
+    0% {content: "standing";}
+    100% {content: "standing";}
+}
+
+.under::after {
+    content: "under";
+    animation: under 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes under {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.under:hover::after {
+    animation: stopunder 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopunder {
+    0% {content: "under";}
+    100% {content: "under";}
+}
+
+.hot::after {
+    content: "hot";
+    animation: hot 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes hot {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.hot:hover::after {
+    animation: stophot 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophot {
+    0% {content: "hot";}
+    100% {content: "hot";}
+}
+
+.water::after {
+    content: "water";
+    animation: water 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes water {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.water:hover::after {
+    animation: stopwater 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopwater {
+    0% {content: "water";}
+    100% {content: "water";}
+}
+
+.hour::after {
+    content: "hour";
+    animation: hour 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes hour {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.hour:hover::after {
+    animation: stophour 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophour {
+    0% {content: "hour";}
+    100% {content: "hour";}
+}
+
+.suffering::after {
+    content: "suffering";
+    animation: suffering 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes suffering {
+	0% {content: ")/$}),_’!";}
+	10% {content: ";:[,<{#!+";}
+	20% {content: "$”_>^;%?'";}
+	30% {content: "^);:[,<{$";}
+	40% {content: "+=%<~+~)*";}
+	50% {content: "`|’*!;$$~";}
+	60% {content: "^~/$.>$<=";}
+	70% {content: ")’?]`*`.]";}
+	80% {content: ";()?@,<*<";}
+	90% {content: "+^-!;:]/%";}
+	100% {content: "|}#{%((;#";}
+}
+.suffering:hover::after {
+    animation: stopsuffering 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopsuffering {
+    0% {content: "suffering";}
+    100% {content: "suffering";}
+}
+
+.of::after {
+    content: "of";
+    animation: of 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes of {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.of:hover::after {
+    animation: stopof 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopof {
+    0% {content: "of";}
+    100% {content: "of";}
+}
+
+.got::after {
+    content: "got";
+    animation: got 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes got {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.got:hover::after {
+    animation: stopgot 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopgot {
+    0% {content: "got";}
+    100% {content: "got";}
+}
+
+.out::after {
+    content: "out";
+    animation: out 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes out {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.out:hover::after {
+    animation: stopout 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopout {
+    0% {content: "out";}
+    100% {content: "out";}
+}
+
+.and::after {
+    content: "and";
+    animation: and 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes and {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.and:hover::after {
+    animation: stopand 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopand {
+    0% {content: "and";}
+    100% {content: "and";}
+}
+
+.dried::after {
+    content: "dried";
+    animation: dried 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes dried {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.dried:hover::after {
+    animation: stopdried 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopdried {
+    0% {content: "dried";}
+    100% {content: "dried";}
+}
+
+.himself::after {
+    content: "himself";
+    animation: himself 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes himself {
+    0% {content: "^%+),~&";}
+	10% {content: "|+?|”#’";}
+	20% {content: "~:^.@&@";}
+	30% {content: "&;(#&|+";}
+	40% {content: "})=”|-;";}
+	50% {content: "^)@<’*,";}
+	60% {content: "[+@’+=%";}
+	70% {content: "(’>?%#^";}
+	80% {content: "<.`&’;$";}
+	90% {content: "_`|//=’";}
+	100% {content: "-,>#~$~";}
+}
+.himself:hover::after {
+    animation: stophimself 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophimself {
+    0% {content: "himself";}
+    100% {content: "himself";}
+}
+
+.still::after {
+    content: "still";
+    animation: still 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes still {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.still:hover::after {
+    animation: stopstill 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopstill {
+    0% {content: "still";}
+    100% {content: "still";}
+}
+
+.fact::after {
+    content: "fact";
+    animation: fact 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes fact {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.fact:hover::after {
+    animation: stopfact 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopfact {
+    0% {content: "fact";}
+    100% {content: "fact";}
+}
+
+.over::after {
+    content: "over";
+    animation: over 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes over {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.over:hover::after {
+    animation: stopover 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopover {
+    0% {content: "over";}
+    100% {content: "over";}
+}
+
+.A::after {
+    content: "A";
+    animation: A 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes A {
+	0% {content: "!";}
+	10% {content: "+";}
+	20% {content: "'";}
+	30% {content: "$";}
+	40% {content: "*";}
+	50% {content: "~";}
+	60% {content: "^";}
+	70% {content: ")";}
+	80% {content: ";";}
+	90% {content: "%";}
+	100% {content: "|";}
+}
+.A:hover::after {
+    animation: stopA 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopA {
+    0% {content: "A";}
+    100% {content: "A";}
+}
+
+.month::after {
+    content: "month";
+    animation: month 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes month {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.month:hover::after {
+    animation: stopmonth 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopmonth {
+    0% {content: "month";}
+    100% {content: "month";}
+}
+
+.later::after {
+    content: "later";
+    animation: later 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes later {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.later:hover::after {
+    animation: stoplater 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoplater {
+    0% {content: "later";}
+    100% {content: "later";}
+}
+
+.lungs::after {
+    content: "lungs";
+    animation: lungs 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes lungs {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.lungs:hover::after {
+    animation: stoplungs 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoplungs {
+    0% {content: "lungs";}
+    100% {content: "lungs";}
+}
+
+.Having::after {
+    content: "Having";
+    animation: Having 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes Having {
+    0% {content: "![}::,";}
+	10% {content: "<#$|:%";}
+	20% {content: ".%}’!$";}
+	30% {content: "@`,;@[";}
+	40% {content: "-[+@~|";}
+	50% {content: ":?@;/>";}
+	60% {content: "}^?]`~";}
+	70% {content: "|[!;>;";}
+	80% {content: "=<”@|`";}
+	90% {content: "`**-#~";}
+	100% {content: "+{!}:{";}
+}
+.Having:hover::after {
+    animation: stopHaving 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopHaving {
+    0% {content: "Having";}
+    100% {content: "Having";}
+}
+
+.nothing::after {
+    content: "nothing";
+    animation: nothing 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes nothing {
+    0% {content: "^%+),~&";}
+	10% {content: "|+?|”#’";}
+	20% {content: "~:^.@&@";}
+	30% {content: "&;(#&|+";}
+	40% {content: "})=”|-;";}
+	50% {content: "^)@<’*,";}
+	60% {content: "[+@’+=%";}
+	70% {content: "(’>?%#^";}
+	80% {content: "<.`&’;$";}
+	90% {content: "_`|//=’";}
+	100% {content: "-,>#~$~";}
+}
+.nothing:hover::after {
+    animation: stopnothing 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopnothing {
+    0% {content: "nothing";}
+    100% {content: "nothing";}
+}
+
+.else::after {
+    content: "else";
+    animation: else 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes else {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.else:hover::after {
+    animation: stopelse 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopelse {
+    0% {content: "else";}
+    100% {content: "else";}
+}
+
+.to::after {
+    content: "to";
+    animation: to 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes to {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.to:hover::after {
+    animation: stopto 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopto {
+    0% {content: "to";}
+    100% {content: "to";}
+}
+
+.do::after {
+    content: "do";
+    animation: do 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes do {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.do:hover::after {
+    animation: stopdo 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopdo {
+    0% {content: "do";}
+    100% {content: "do";}
+}
+
+.or::after {
+    content: "or";
+    animation: or 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes or {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.or:hover::after {
+    animation: stopor 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopor {
+    0% {content: "or";}
+    100% {content: "or";}
+}
+
+.think::after {
+    content: "think";
+    animation: think 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes think {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.think:hover::after {
+    animation: stopthink 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopthink {
+    0% {content: "think";}
+    100% {content: "think";}
+}
+
+.about::after {
+    content: "about";
+    animation: about 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes about {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.about:hover::after {
+    animation: stopabout 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopabout {
+    0% {content: "about";}
+    100% {content: "about";}
+}
+
+.began::after {
+    content: "began";
+    animation: began 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes began {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.began:hover::after {
+    animation: stopbegan 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopbegan {
+    0% {content: "began";}
+    100% {content: "began";}
+}
+
+.work::after {
+    content: "work";
+    animation: work 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes work {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.work:hover::after {
+    animation: stopwork 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopwork {
+    0% {content: "work";}
+    100% {content: "work";}
+}
+
+.theoretically::after {
+    content: "theoretically";
+    animation: theoretically 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes theoretically {
+	0% {content: ")/&@)$$}),_’!";}
+	10% {content: ";:[,<{$!}{#!+";}
+	20% {content: "$”_>^.,;';%?'";}
+	30% {content: "^);:$!(&[,<{$";}
+	40% {content: "+=%<~+~)#!(**";}
+	50% {content: "`|’*~|}{!;$$~";}
+	60% {content: "^~/$.#%&#>$<=";}
+	70% {content: ")’?]`*%!(&`.]";}
+	80% {content: ";()?@,<*<|][#";}
+	90% {content: "+^-!;%*!(:]/%";}
+	100% {content: "}#{%$*!~%((;#";}
+}
+.theoretically:hover::after {
+    animation: stoptheoretically 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoptheoretically {
+    0% {content: "theoretically";}
+    100% {content: "theoretically";}
+}
+
+.life::after {
+    content: "life";
+    animation: life 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes life {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.life:hover::after {
+    animation: stoplife 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoplife {
+    0% {content: "life";}
+    100% {content: "life";}
+}
+
+.cycle::after {
+    content: "cycle";
+    animation: cycle 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes cycle {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.cycle:hover::after {
+    animation: stopcycle 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopcycle {
+    0% {content: "cycle";}
+    100% {content: "cycle";}
+}
+
+.with::after {
+    content: "with";
+    animation: with 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes with {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.with:hover::after {
+    animation: stopwith 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopwith {
+    0% {content: "with";}
+    100% {content: "with";}
+}
+
+.aid::after {
+    content: "aid";
+    animation: aid 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes aid {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.aid:hover::after {
+    animation: stopaid 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopaid {
+    0% {content: "aid";}
+    100% {content: "aid";}
+}
+
+.Britannica::after {
+    content: "Britannica";
+    animation: Britannica 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes Britannica {
+	0% {content: ")/$@}),_’!";}
+	10% {content: ";:[^,<{#!+";}
+	20% {content: "$”_>$^;%?'";}
+	30% {content: "^);:[{,<{$";}
+	40% {content: "+=%<~+[~)*";}
+	50% {content: "`|’*!;$|$~";}
+	60% {content: "^~/$.>$<;=";}
+	70% {content: ")’?]`*`.],";}
+	80% {content: ";()?@,<*<>";}
+	90% {content: "+^-!;:]/%;?"}
+	100% {content: "|}#{%((;#!";}
+}
+.Britannica:hover::after {
+    animation: stopBritannica 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopBritannica {
+    0% {content: "Britannica";}
+    100% {content: "Britannica";}
+}
+
+.try::after {
+    content: "try";
+    animation: try 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes try {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.try:hover::after {
+    animation: stoptry 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoptry {
+    0% {content: "try";}
+    100% {content: "try";}
+}
+
+.determine::after {
+    content: "determine";
+    animation: determine 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes determine {
+	0% {content: ")/$}),_’!";}
+	10% {content: ";:[,<{#!+";}
+	20% {content: "$”_>^;%?'";}
+	30% {content: "^);:[,<{$";}
+	40% {content: "+=%<~+~)*";}
+	50% {content: "`|’*!;$$~";}
+	60% {content: "^~/$.>$<=";}
+	70% {content: ")’?]`*`.]";}
+	80% {content: ";()?@,<*<";}
+	90% {content: "+^-!;:]/%";}
+	100% {content: "|}#{%((;#";}
+}
+.determine:hover::after {
+    animation: stopdetermine 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopdetermine {
+    0% {content: "determine";}
+    100% {content: "determine";}
+}
+
+.specifically::after {
+    content: "specifically";
+    animation: specifically 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes specifically {
+	0% {content: ")/$}%&*),_’!";}
+	10% {content: "!;[<{#&$%#!+";}
+	20% {content: "$*@(”_>^;%?'";}
+	30% {content: "^);:^()[,<{$";}
+	40% {content: "+=%<~+~|}#)*";}
+	50% {content: "`|’*!;$$~;;'";}
+	60% {content: "^~/$.>$^%*<=";}
+	70% {content: ")’?]`*%*$`.]";}
+	80% {content: ";()?@,<*@)*<";}
+	90% {content: "+^-!;:]/!#%%";}
+	100% {content: "|}#{%((;+^-#";}
+}
+.specifically:hover::after {
+    animation: stopspecifically 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopspecifically {
+    0% {content: "specifically";}
+    100% {content: "specifically";}
+}
+
+.which::after {
+    content: "which";
+    animation: which 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes which {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.which:hover::after {
+    animation: stopwhich 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopwhich {
+    0% {content: "which";}
+    100% {content: "which";}
+}
+
+.They::after {
+    content: "They";
+    animation: They 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes They {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.They:hover::after {
+    animation: stopThey 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopThey {
+    0% {content: "They";}
+    100% {content: "They";}
+}
+
+.now::after {
+    content: "now";
+    animation: now 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes now {
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+}
+.now:hover::after {
+    animation: stopnow 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopnow {
+    0% {content: "now";}
+    100% {content: "now";}
+}
+
+.filled::after {
+    content: "filled";
+    animation: filled 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes filled {
+    0% {content: "![}::,";}
+	10% {content: "<#$|:%";}
+	20% {content: ".%}’!$";}
+	30% {content: "@`,;@[";}
+	40% {content: "-[+@~|";}
+	50% {content: ":?@;/>";}
+	60% {content: "}^?]`~";}
+	70% {content: "|[!;>;";}
+	80% {content: "=<”@|`";}
+	90% {content: "`**-#~";}
+	100% {content: "+{!}:{";}
+}
+.filled:hover::after {
+    animation: stopfilled 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopfilled {
+    0% {content: "filled";}
+    100% {content: "filled";}
+}
+
+.house::after {
+    content: "house";
+    animation: house 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes house {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.house:hover::after {
+    animation: stophouse 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophouse {
+    0% {content: "house";}
+    100% {content: "house";}
+}
+
+.shaking::after {
+    content: "shaking";
+    animation: shaking 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes shaking {
+    0% {content: "^%+),~&";}
+	10% {content: "|+?|”#’";}
+	20% {content: "~:^.@&@";}
+	30% {content: "&;(#&|+";}
+	40% {content: "})=”|-;";}
+	50% {content: "^)@<’*,";}
+	60% {content: "[+@’+=%";}
+	70% {content: "(’>?%#^";}
+	80% {content: "<.`&’;$";}
+	90% {content: "_`|//=’";}
+	100% {content: "-,>#~$~";}
+}
+.shaking:hover::after {
+    animation: stopshaking 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopshaking {
+    0% {content: "shaking";}
+    100% {content: "shaking";}
+}
+
+.from::after {
+    content: "from";
+    animation: from 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes from {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.from:hover::after {
+    animation: stopfrom 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopfrom {
+    0% {content: "from";}
+    100% {content: "from";}
+}
+
+.kinds::after {
+    content: "kinds";
+    animation: kinds 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes kinds {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.kinds:hover::after {
+    animation: stopkinds 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopkinds {
+    0% {content: "kinds";}
+    100% {content: "kinds";}
+}
+
+.finally::after {
+    content: "finally";
+    animation: finally 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes finally {
+    0% {content: "^%+),~&";}
+	10% {content: "|+?|”#’";}
+	20% {content: "~:^.@&@";}
+	30% {content: "&;(#&|+";}
+	40% {content: "})=”|-;";}
+	50% {content: "^)@<’*,";}
+	60% {content: "[+@’+=%";}
+	70% {content: "(’>?%#^";}
+	80% {content: "<.`&’;$";}
+	90% {content: "_`|//=’";}
+	100% {content: "-,>#~$~";}
+}
+.finally:hover::after {
+    animation: stopfinally 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopfinally {
+    0% {content: "finally";}
+    100% {content: "finally";}
+}
+
+.noticed::after {
+    content: "noticed";
+    animation: noticed 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes noticed {
+    0% {content: "^%+),~&";}
+	10% {content: "|+?|”#’";}
+	20% {content: "~:^.@&@";}
+	30% {content: "&;(#&|+";}
+	40% {content: "})=”|-;";}
+	50% {content: "^)@<’*,";}
+	60% {content: "[+@’+=%";}
+	70% {content: "(’>?%#^";}
+	80% {content: "<.`&’;$";}
+	90% {content: "_`|//=’";}
+	100% {content: "-,>#~$~";}
+}
+.noticed:hover::after {
+    animation: stopnoticed 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopnoticed {
+    0% {content: "noticed";}
+    100% {content: "noticed";}
+}
+
+.outdoors::after {
+    content: "outdoors";
+    animation: outdoors 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes outdoors {
+	0% {content: "!$#%!;{^";}
+	10% {content: "*?>,?:`+";}
+	20% {content: ".[/~*%?'";}
+	30% {content: "),.[/~*$";}
+	40% {content: "=/#_`^)*";}
+	50% {content: "~<!)/](~";}
+	60% {content: "/,@]#*$^";}
+	70% {content: ")*.?!)*’";}
+	80% {content: ";_<}&’;$";}
+	90% {content: "%(=/&%*+";}
+	100% {content: "_]%;``+|";}
+}
+.outdoors:hover::after {
+    animation: stopoutdoors 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopoutdoors {
+    0% {content: "outdoors";}
+    100% {content: "outdoors";}
+}
+
+.so::after {
+    content: "so";
+    animation: so 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes so {
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+}
+.so:hover::after {
+    animation: stopso 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopso {
+    0% {content: "so";}
+    100% {content: "so";}
+}
+
+.concluded::after {
+    content: "concluded";
+    animation: concluded 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes concluded {
+	0% {content: ")/$}),_’!";}
+	10% {content: ";:[,<{#!+";}
+	20% {content: "$”_>^;%?'";}
+	30% {content: "^);:[,<{$";}
+	40% {content: "+=%<~+~)*";}
+	50% {content: "`|’*!;$$~";}
+	60% {content: "^~/$.>$<=";}
+	70% {content: ")’?]`*`.]";}
+	80% {content: ";()?@,<*<";}
+	90% {content: "+^-!;:]/%";}
+	100% {content: "|}#{%((;#";}
+}
+.concluded:hover::after {
+    animation: stopconcluded 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopconcluded {
+    0% {content: "concluded";}
+    100% {content: "concluded";}
+}
+
+.aphids::after {
+    content: "aphids";
+    animation: aphids 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes aphids {
+    0% {content: "![}::,";}
+	10% {content: "<#$|:%";}
+	20% {content: ".%}’!$";}
+	30% {content: "@`,;@[";}
+	40% {content: "-[+@~|";}
+	50% {content: ":?@;/>";}
+	60% {content: "}^?]`~";}
+	70% {content: "|[!;>;";}
+	80% {content: "=<”@|`";}
+	90% {content: "`**-#~";}
+	100% {content: "+{!}:{";}
+}
+.aphids:hover::after {
+    animation: stopaphids 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopaphids {
+    0% {content: "aphids";}
+    100% {content: "aphids";}
+}
+
+.decision::after {
+    content: "decision";
+    animation: decision 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes decision {
+	0% {content: "!$#%!;{^";}
+	10% {content: "*?>,?:`+";}
+	20% {content: ".[/~*%?'";}
+	30% {content: "),.[/~*$";}
+	40% {content: "=/#_`^)*";}
+	50% {content: "~<!)/](~";}
+	60% {content: "/,@]#*$^";}
+	70% {content: ")*.?!)*’";}
+	80% {content: ";_<}&’;$";}
+	90% {content: "%(=/&%*+";}
+	100% {content: "_]%;``+|";}
+}
+.decision:hover::after {
+    animation: stopdecision 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopdecision {
+    0% {content: "decision";}
+    100% {content: "decision";}
+}
+
+.came::after {
+    content: "came";
+    animation: came 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes came {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.came:hover::after {
+    animation: stopcame 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopcame {
+    0% {content: "came";}
+    100% {content: "came";}
+}
+
+.mind::after {
+    content: "mind";
+    animation: mind 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes mind {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.mind:hover::after {
+    animation: stopmind 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopmind {
+    0% {content: "mind";}
+    100% {content: "mind";}
+}
+
+.never::after {
+    content: "never";
+    animation: never 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes never {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.never:hover::after {
+    animation: stopnever 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopnever {
+    0% {content: "never";}
+    100% {content: "never";}
+}
+
+.changed::after {
+    content: "changed";
+    animation: changed 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes changed {
+    0% {content: "^%+),~&";}
+	10% {content: "|+?|”#’";}
+	20% {content: "~:^.@&@";}
+	30% {content: "&;(#&|+";}
+	40% {content: "})=”|-;";}
+	50% {content: "^)@<’*,";}
+	60% {content: "[+@’+=%";}
+	70% {content: "(’>?%#^";}
+	80% {content: "<.`&’;$";}
+	90% {content: "_`|//=’";}
+	100% {content: "-,>#~$~";}
+}
+.changed:hover::after {
+    animation: stopchanged 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopchanged {
+    0% {content: "changed";}
+    100% {content: "changed";}
+}
+
+.matter::after {
+    content: "matter";
+    animation: matter 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes matter {
+    0% {content: "![}::,";}
+	10% {content: "<#$|:%";}
+	20% {content: ".%}’!$";}
+	30% {content: "@`,;@[";}
+	40% {content: "-[+@~|";}
+	50% {content: ":?@;/>";}
+	60% {content: "}^?]`~";}
+	70% {content: "|[!;>;";}
+	80% {content: "=<”@|`";}
+	90% {content: "`**-#~";}
+	100% {content: "+{!}:{";}
+}
+.matter:hover::after {
+    animation: stopmatter 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopmatter {
+    0% {content: "matter";}
+    100% {content: "matter";}
+}
+
+.what::after {
+    content: "what";
+    animation: what 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes what {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.what:hover::after {
+    animation: stopwhat 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopwhat {
+    0% {content: "what";}
+    100% {content: "what";}
+}
+
+.other::after {
+    content: "other";
+    animation: other 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes other {
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+}
+.other:hover::after {
+    animation: stopother 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopother {
+    0% {content: "other";}
+    100% {content: "other";}
+}
+
+.people::after {
+    content: "people";
+    animation: people 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes people {
+    0% {content: "![}::,";}
+	10% {content: "<#$|:%";}
+	20% {content: ".%}’!$";}
+	30% {content: "@`,;@[";}
+	40% {content: "-[+@~|";}
+	50% {content: ":?@;/>";}
+	60% {content: "}^?]`~";}
+	70% {content: "|[!;>;";}
+	80% {content: "=<”@|`";}
+	90% {content: "`**-#~";}
+	100% {content: "+{!}:{";}
+}
+.people:hover::after {
+    animation: stoppeople 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoppeople {
+    0% {content: "people";}
+    100% {content: "people";}
+}
+
+.like::after {
+    content: "like";
+    animation: like 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes like {
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@!;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+}
+.like:hover::after {
+    animation: stoplike 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoplike {
+    0% {content: "like";}
+    100% {content: "like";}
+}
+

@@ -6,19 +6,24 @@ body {
 .previous {
     position: fixed;
     bottom: 50%;
-    left: 24px;
+    left: 32px;
 }
 
 .next {
     position: fixed;
     bottom: 50%;
-    right: 24px;
+    right: 32px;
 }
 
 a,a:visited {
     text-decoration: none;
     color: black;
     font-size: 36pt;
+}
+
+a:hover {
+    color: red;
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=2323'), auto;
 }
 
 .hero {
@@ -43,7 +48,7 @@ text-align: left;
     line-height: 10vw;
     justify-content: left;
     text-align: left;
-    padding-left: 25vw;
+    padding-left: 28vw;
     padding-top: 5vw;
 
     animation: first 1s;
@@ -66,7 +71,7 @@ text-align: left;
     line-height: 10vw;
     justify-content: left;
     text-align: left;
-    padding-left: 25vw;
+    padding-left: 28vw;
 
     animation: second 1.25s;
     content: "Scanner";
@@ -90,7 +95,7 @@ text-align: left;
     line-height: 10vw;
     justify-content: left;
     text-align: left;
-    padding-left: 25vw;
+    padding-left: 28vw;
 
     animation: third 1.5s;
     content: "Darkly";
@@ -119,20 +124,21 @@ h2 {
     display: flex;
     justify-content: left;
     text-align: left;
-    padding-left: 25vw;
+    padding-left: 28vw;
 }
 
 .para {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
+    font-variant-numeric: tabular-nums;
 
     display: inline-block;
     justify-content: left;
-    padding-right: 25vw;
-    padding-left: 25vw;
+    padding-right: 28vw;
+    padding-left: 28vw;
     padding-bottom: 50vw;
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
     
 }
@@ -141,6 +147,11 @@ h2 {
 /* body animations start here */
 /* body animations start here */
 /* body animations start here */
+
+/* skip duplicate words by using https://duplicateword.com/
+randomize symbols by using https://www.browserling.com/tools/random-letters
+replace words in selection to create new animations for new words */
+
 
 .Once::after {
 	content: "Once";
@@ -182,17 +193,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes a {
-	0% {content: "{!@)";}
-	10% {content: "!%#@";}
-	20% {content: "@$%!";}
-	30% {content: "#&*}";}
-	40% {content: "$%)^";}
-	50% {content: "%<{}";}
-	60% {content: "^#)@";}
-	70% {content: "&#@^";}
-	80% {content: "*:']";}
-	90% {content: "()+]";}
-	100% {content: ")@4[";}
+	0% {content: "!";}
+	10% {content: "%";}
+	20% {content: "@";}
+	30% {content: "*";}
+	40% {content: "^";}
+	50% {content: "<";}
+	60% {content: ")";}
+	70% {content: "?";}
+	80% {content: "*";}
+	90% {content: "]";}
+	100% {content: "+";}
 }
 .a:hover::after {
 	animation: stopa 1s;
@@ -279,17 +290,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes all {
-	0% {content: "#%@!{";}
-	10% {content: "@^$@*";}
-	20% {content: "${]}@";}
-	30% {content: "}$@)(";}
-	40% {content: "^+)!*";}
-	50% {content: "+][$}";}
-	60% {content: "^*!)#";}
-	70% {content: "&!$*)";}
-	80% {content: "{|+%]";}
-	90% {content: "#!*)+";}
-	100% {content: "@>?#$";}
+	0% {content: "@!{";}
+	10% {content: "/^*";}
+	20% {content: "{]=";}
+	30% {content: ";(|";}
+	40% {content: "+)*";}
+	50% {content: "[^,";}
+	60% {content: "*)#";}
+	70% {content: "!$)";}
+	80% {content: "|+]";}
+	90% {content: "#)+";}
+	100% {content: "@>?";}
 }
 .all:hover::after {
 	animation: stopsall 1s;
@@ -343,17 +354,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes shaking {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: "{@)*%!:";}
+	10% {content: "@}+{=|+";}
+	20% {content: "$?';/<^";}
+	30% {content: "-}=_|[~";}
+	40% {content: "^{;>$*`";}
+	50% {content: "}`,*.>?";}
+	60% {content: "^}#)!(|";}
+	70% {content: "&@):|^!";}
+	80% {content: "]!)%:;]";}
+	90% {content: "+}#,>+%";}
+	100% {content: "@,.'|#.";}
 }
 .shaking:hover::after {
 	animation: stopshaking 1s;
@@ -375,17 +386,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes bugs {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: "{!@%";}
+	10% {content: "@^}+";}
+	20% {content: ";$?'";}
+	30% {content: "-|}=";}
+	40% {content: "-^$*";}
+	50% {content: "}#,>";}
+	60% {content: "^,}|";}
+	70% {content: "&@;)";}
+	80% {content: "]+;]";}
+	90% {content: "+=+%";}
+	100% {content: "@],.";}
 }
 .bugs:hover::after {
 	animation: stopbugs 1s;
@@ -407,17 +418,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes from {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: "!#*@";}
+	10% {content: "+|{>";}
+	20% {content: "~*[;";}
+	30% {content: "-+@#";}
+	40% {content: "@(^*";}
+	50% {content: ">?*$";}
+	60% {content: "`;]/";}
+	70% {content: "!@)&";}
+	80% {content: "<.:^";}
+	90% {content: "#)]<";}
+	100% {content: ")#+!";}
 }
 .from:hover::after {
 	animation: stopfrom 1s;
@@ -448,7 +459,7 @@ h2 {
 	60% {content: "^}|";}
 	70% {content: "&@)";}
 	80% {content: "];]";}
-	90% {content: "++%";}
+	90% {content: "[+%";}
 	100% {content: "@,.";}
 }
 .his:hover::after {
@@ -471,17 +482,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes hair {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: "$!;,";}
+	10% {content: "!]@+";}
+	20% {content: "$)?'";}
+	30% {content: "=|,$";}
+	40% {content: "^$!*";}
+	50% {content: "},~>";}
+	60% {content: "^}`|";}
+	70% {content: "&|@)";}
+	80% {content: "]:;]";}
+	90% {content: "~%_$";}
+	100% {content: "#,@.";}
 }
 .hair:hover::after {
 	animation: stophair 1s;
@@ -503,17 +514,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes The {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: "(@*";}
+	10% {content: "@^;";}
+	20% {content: "+=;";}
+	30% {content: "}^`";}
+	40% {content: "_=)";}
+	50% {content: "[>/";}
+	60% {content: "*#]";}
+	70% {content: "=<+";}
+	80% {content: "`|,";}
+	90% {content: "#!*";}
+	100% {content: "?@%";}
 }
 .The:hover::after {
 	animation: stopThe 1s;
@@ -535,17 +546,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes doctor {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: "*~.!)&";}
+	10% {content: "`]!]}?";}
+	20% {content: "|=,%{}";}
+	30% {content: "”;,|*[";}
+	40% {content: "-)#<:~";}
+	50% {content: "^][{,$";}
+	60% {content: "/%!;%/";}
+	70% {content: "^#-%^]";}
+	80% {content: "]~<~#’";}
+	90% {content: "+=([}?";}
+	100% {content: ">__{`(";}
 }
 .doctor:hover::after {
 	animation: stopdoctor 1s;
@@ -567,17 +578,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes told {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: "{,$}";}
+	10% {content: "!$|$";}
+	20% {content: ">+-,";}
+	30% {content: "~!`<";}
+	40% {content: "[,#@";}
+	50% {content: "/+~[";}
+	60% {content: "/,,#";}
+	70% {content: "*>&<";}
+	80% {content: "-@=;";}
+	90% {content: ">>??";}
+	100% {content: "=},{";}
 }
 .told:hover::after {
 	animation: stoptold 1s;
@@ -599,17 +610,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes him {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: ":|)";}
+	10% {content: "~,|";}
+	20% {content: ".%.";}
+	30% {content: "’+[";}
+	40% {content: "++{";}
+	50% {content: "&^~";}
+	60% {content: "^|’";}
+	70% {content: ">))";}
+	80% {content: ":]|";}
+	90% {content: ">!#";}
+	100% {content: ":@:";}
 }
 .him:hover::after {
 	animation: stophim 1s;
@@ -631,17 +642,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes there {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: "@>))=";}
+	10% {content: "^@{|=";}
+	20% {content: "_{]”?";}
+	30% {content: "`::^+";}
+	40% {content: ")|*-”";}
+	50% {content: "[%<_>";}
+	60% {content: "@,[-*";}
+	70% {content: "”/=(/";}
+	80% {content: ")|>]&";}
+	90% {content: "&^”#=";}
+	100% {content: "?$#>^";}
 }
 .there:hover::after {
 	animation: stopthere 1s;
@@ -663,17 +674,17 @@ h2 {
     letter-spacing: 6pt;
 }
 @keyframes were {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+	0% {content: "%^!*"; }
+	10% {content: "!@#$"; }
+	20% {content: "%^&*"; }
+	30% {content: "()_="; }
+	40% {content: "+[]|"; }
+	50% {content: "{};’"; }
+	60% {content: ",.<>"; }
+	70% {content: "/?`~"; }
+	80% {content: "!@#$"; }
+	90% {content: "%^&*"; }
+	100% {content: "()_="; }
 }
 .were:hover::after {
 	animation: stopwere 1s;
@@ -687,32 +698,195 @@ h2 {
 
 /* ------------------- */
 
-.All::after {
-	content: "all";
-	animation: All 1.5s;
+.no::after {
+	content: "no";
+	animation: no 1.5s;
 	animation-iteration-count: infinite;
     font-size: 24pt;
     letter-spacing: 6pt;
 }
-@keyframes All {
-	0% {content: "{!@";}
-	10% {content: "@}+";}
-	20% {content: "$?'";}
-	30% {content: "-}=";}
-	40% {content: "^$*";}
-	50% {content: "},>";}
-	60% {content: "^}|";}
-	70% {content: "&@)";}
-	80% {content: "];]";}
-	90% {content: "++%";}
-	100% {content: "@,.";}
+@keyframes no {
+	0% {content: "*^"; }
+	10% {content: "!@"; }
+	20% {content: "#$"; }
+	30% {content: "%^"; }
+	40% {content: "&*"; }
+	50% {content: "()"; }
+	60% {content: "_-"; }
+	70% {content: "=+"; }
+	80% {content: "[]"; }
+	90% {content: "|{"; }
+	100% {content: "};"; }
 }
-.All:hover::after {
-	animation: stopAll 1s;
+.no:hover::after {
+	animation: stopno 1s;
 	animation-iteration-count: infinite;
     color: red;
 }
-@keyframes stopall {
-	0% {content: "all";}
-	100% {content: "all";}
+@keyframes stopno {
+	0% {content: "no";}
+	100% {content: "no";}
 }
+
+/* ------------------- */
+
+.in::after {
+	content: "in";
+	animation: in 1.5s;
+	animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes in {
+	0% {content: "<|"; }
+	10% {content: "!@"; }
+	20% {content: "#$"; }
+	30% {content: "%^"; }
+	40% {content: "&*"; }
+	50% {content: "()"; }
+	60% {content: "_-"; }
+	70% {content: "=+"; }
+	80% {content: "[]"; }
+	90% {content: "|{"; }
+	100% {content: "};"; }
+}
+.in:hover::after {
+	animation: stopin 1s;
+	animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopin {
+	0% {content: "in";}
+	100% {content: "in";}
+}
+
+/* ------------------- */
+
+.After::after {
+	content: "After";
+	animation: After 1.5s;
+	animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes After {
+	0% {content: "!)@~|"; }
+	10% {content: "!@#$%"; }
+	20% {content: "^&*()"; }
+	30% {content: "_-=+["; }
+	40% {content: "]|{};"; }
+	50% {content: "’:”,."; }
+	60% {content: "<>/?`"; }
+	70% {content: "~!@#$"; }
+	80% {content: "%^&*("; }
+	90% {content: ")-=+["; }
+	100% {content: "]|{};"; }
+}
+.After:hover::after {
+	animation: stopAfter 1s;
+	animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopAfter {
+	0% {content: "After";}
+	100% {content: "After";}
+}
+
+/* ------------------- */
+
+.he::after {
+	content: "he";
+	animation: he 1.5s;
+	animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes he {
+	0% {content: ""; }
+	10% {content: "!@"; }
+	20% {content: "#$"; }
+	30% {content: "%^"; }
+	40% {content: "&*"; }
+	50% {content: "()"; }
+	60% {content: "_-"; }
+	70% {content: "=+"; }
+	80% {content: "[]"; }
+	90% {content: "|{"; }
+	100% {content: "};"; }
+}
+.he:hover::after {
+	animation: stophe 1s;
+	animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophe {
+	0% {content: "he";}
+	100% {content: "he";}
+}
+
+/* ------------------- */
+
+.had::after {
+	content: "had";
+	animation: had 1.5s;
+	animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes had {
+	0% {content: "~.;"; }
+	10% {content: "!@#"; }
+	20% {content: "$%^"; }
+	30% {content: "&*("; }
+	40% {content: ")_="; }
+	50% {content: "-+["; }
+	60% {content: "]{|"; }
+	70% {content: "{};"; }
+	80% {content: ":’,"; }
+	90% {content: "’.<"; }
+	100% {content: ",>?"; }
+}
+.had:hover::after {
+	animation: stophad 1s;
+	animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stophad {
+	0% {content: "had";}
+	100% {content: "had";}
+}
+
+/* ------------------- */
+
+.taken::after {
+	content: "taken";
+	animation: taken 1.5s;
+	animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes taken {
+	0% {content: "~}=<+"; }
+	10% {content: "!@#$%"; }
+	20% {content: "^&*()"; }
+	30% {content: "_-=+["; }
+	40% {content: "]|{};"; }
+	50% {content: "’:”,."; }
+	60% {content: "<>/?`"; }
+	70% {content: "~!@#$"; }
+	80% {content: "%^&*("; }
+	90% {content: ")-=+["; }
+	100% {content: "]|{};"; }
+}
+.taken:hover::after {
+	animation: stoptaken 1s;
+	animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stoptaken {
+	0% {content: "taken";}
+	100% {content: "taken";}
+}
+
+/* ------------------- */
+

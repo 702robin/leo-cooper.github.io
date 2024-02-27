@@ -1,0 +1,169 @@
+.example::after {
+    content: "example.";
+    animation: example 1.5s;
+    animation-iteration-count: infinite;
+    font-size: 24pt;
+    letter-spacing: 6pt;
+}
+@keyframes example {
+    0% {content: “x”;}
+    10% {content: “x”;}
+    20% {content: “x”;}
+    30% {content: “x”;}
+    40% {content: “x”;}
+    50% {content: “x”;}
+    60% {content: “x”;}
+    70% {content: “x”;}
+    80% {content: “x”;}
+    90% {content: “x”;}
+    100% {content: “x”;}
+}
+.example:hover::after {
+    animation: stopexample 1s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes stopexample {
+    0% {content: "example.";}
+    100% {content: "example.";}
+}
+
+1
+
+	0% {content: "!";}
+	10% {content: "+";}
+	20% {content: "?'";}
+	30% {content: "$";}
+	40% {content: "*";}
+	50% {content: "~";}
+	60% {content: "^";}
+	70% {content: ")";}
+	80% {content: ";";}
+	90% {content: "%";}
+	100% {content: "|";}
+
+2
+
+    0% {content: ",%";}
+	10% {content: "+]";}
+	20% {content: "?|'";}
+	30% {content: "$,";}
+	40% {content: "*>";}
+	50% {content: "~;";}
+	60% {content: "^#";}
+	70% {content: ")(";}
+	80% {content: ";`";}
+	90% {content: "%=";}
+	100% {content: "|+";}
+
+3
+
+    0% {content: "!(*";}
+	10% {content: "|+]";}
+	20% {content: ")-|'";}
+	30% {content: "<;}";}
+	40% {content: "^@!";}
+	50% {content: "`}+";}
+	60% {content: "^{#";}
+	70% {content: "-=#";}
+	80% {content: "|:~";}
+	90% {content: "%*=";}
+	100% {content: ">;-";}
+
+4
+
+    0% {content: "@$#(";}
+	10% {content: "[|+;";}
+	20% {content: ",'>;";}
+	30% {content: "*@;";}
+	40% {content: "-+~|";}
+	50% {content: "<;.*";}
+	60% {content: "[+!#";}
+	70% {content: "<;{+";}
+	80% {content: "$*!#";}
+	90% {content: "`}:?";}
+	100% {content: ">@;-";}
+
+5
+
+    0% {content: "[}::,";}
+	10% {content: "<#$|:";}
+	20% {content: ".%}’!";}
+	30% {content: "@`,;[";}
+	40% {content: "-[}+~|";}
+	50% {content: "?@;/>";}
+	60% {content: "}?]`~";}
+	70% {content: "|[;>;";}
+	80% {content: "=<”|`";}
+	90% {content: "`**-~";}
+	100% {content: "+{!}{";}
+
+6
+
+    0% {content: "![}::,";}
+	10% {content: "<#$|:%";}
+	20% {content: ".%}’!$";}
+	30% {content: "@`,;@[";}
+	40% {content: "-[}+@~|";}
+	50% {content: ":?@;/>";}
+	60% {content: "}^?]`~";}
+	70% {content: "|[!;>;";}
+	80% {content: "=<”@|`";}
+	90% {content: "`**-#~";}
+	100% {content: "+{!}:{";}
+
+7
+
+    0% {content: "^%+),~&";}
+	10% {content: "|+?|”#’";}
+	20% {content: "~:^.@&@";}
+	30% {content: "&;(#&|+";}
+	40% {content: "})=”|-;";}
+	50% {content: "^)@<’*,";}
+	60% {content: "[+@’+=%";}
+	70% {content: "(’>?%#^";}
+	80% {content: "<.`&’;$";}
+	90% {content: "_`|//=’";}
+	100% {content: "-,>#~$~";}
+
+8
+
+	0% {content: "!$#%!;{^";}
+	10% {content: "*?>,?:`+";}
+	20% {content: ".[/~*%?'";}
+	30% {content: "$";}
+	40% {content: "*";}
+	50% {content: "~";}
+	60% {content: "^";}
+	70% {content: ")";}
+	80% {content: ";";}
+	90% {content: "%";}
+	100% {content: "|";}
+
+9
+
+	0% {content: "!";}
+	10% {content: "+";}
+	20% {content: "?'";}
+	30% {content: "$";}
+	40% {content: "*";}
+	50% {content: "~";}
+	60% {content: "^";}
+	70% {content: ")";}
+	80% {content: ";";}
+	90% {content: "%";}
+	100% {content: "|";}
+
+10
+
+	0% {content: "!";}
+	10% {content: "+";}
+	20% {content: "?'";}
+	30% {content: "$";}
+	40% {content: "*";}
+	50% {content: "~";}
+	60% {content: "^";}
+	70% {content: ")";}
+	80% {content: ";";}
+	90% {content: "%";}
+	100% {content: "|";}
