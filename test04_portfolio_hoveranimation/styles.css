@@ -1,20 +1,22 @@
-.hero {
+h1 {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 5vh;
+    line-height: 0px;
+    color: aliceblue;
 
     display: flex;
-    flex-direction: column;
-    column-gap: 50px;
-    position: static;
-    text-align: center;
     justify-content: center;
 }
 
 body {
-    background-color: rgb(235, 235, 235);
+    background-image: url("https://cdn.vox-cdn.com/thumbor/6z9EcmyiAJ00A_eP5tk2DmVeYe0=/0x15:500x348/1200x800/filters:focal(0x15:500x348):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/36992002/tumblr_lmwsamrrxT1qagx30.0.0.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 /* images */
 
@@ -25,19 +27,19 @@ body {
 }
 
 .red {
-    transition: all 200ms ease-in;
+    transition: all .25s ease-out;
     transform: scale(1);
 
     width: 20vw;
     height: 20vw;
     padding: 1rem;
   
-    background-image: url(https://github.com/702robin/702robin.github.io/blob/main/test04_portfolio_hoveranimation/assets/portfoliosite_irregularimgs.png?raw=true);
-    background-size: contain;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png);
+    background-size: 30vw;
     background-position: center;
     background-repeat: no-repeat;
   
-    mask-image: url(https://github.com/702robin/702robin.github.io/blob/main/test04_portfolio_hoveranimation/assets/portfoliosite_irregularimgs.svg?raw=trueg);
+    mask-image: url(https://raw.githubusercontent.com/702robin/702robin.github.io/4f5809cf0470f349c30f849e7a8e424077bda4eb/test04_portfolio_hoveranimation/assets/portfoliosite_imgs.svg);
     mask-size: 20vw;
     mask-repeat: no-repeat;
     mask-position: center;
@@ -45,7 +47,17 @@ body {
 
 .red:hover {
     filter: grayscale(100) blur(100);
-    transition: all 200ms ease-in;
+    transition: all .25s ease-out;
     transform: scale(1.1);
+
+    background-image: url(https://compote.slate.com/images/697b023b-64a5-49a0-8059-27b963453fb1.gif);
+    background-size: 30vw;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    mask-image: url(https://raw.githubusercontent.com/702robin/702robin.github.io/4f5809cf0470f349c30f849e7a8e424077bda4eb/test04_portfolio_hoveranimation/assets/portfoliosite_imgs.svg);
+    mask-size: 20vw;
+    mask-repeat: no-repeat;
+    mask-position: center;
 }
 
