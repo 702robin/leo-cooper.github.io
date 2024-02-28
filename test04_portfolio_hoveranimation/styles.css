@@ -10,3 +10,20 @@
     justify-content: center;
     padding-top: 40vh;
 }
+
+/* images */
+
+.imgs {
+    display: flex;
+    position: static;
+    justify-content: center;
+
+}
+
+.red {
+    width: 10vw;
+}
+
+.red:hover {
+    filter: grayscale(100);
+}
