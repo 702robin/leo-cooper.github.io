@@ -46,7 +46,6 @@ body {
 }
 
 .red:hover {
-    filter: grayscale(100) blur(100);
     transition: all .25s ease-out;
     transform: scale(1.1);
 
