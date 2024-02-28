@@ -5,10 +5,15 @@
     font-size: 5vh;
 
     display: flex;
+    flex-direction: column;
+    column-gap: 50px;
     position: static;
     text-align: center;
     justify-content: center;
-    padding-top: 40vh;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
 }
 
 /* images */
@@ -17,13 +22,33 @@
     display: flex;
     position: static;
     justify-content: center;
-
 }
 
 .red {
     width: 10vw;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    mask-image: url("https://i.ibb.co/mBrmH0k/Mf15d.png") center/contain no-repeat;
 }
 
 .red:hover {
-    filter: grayscale(100);
+    filter: grayscale(100) blur(100);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
 }
+
+.el {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+  
+    background-image: url(https://images.unsplash.com/photo-1528287942171-fbe365d1d9ac?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&w=1200&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    mask-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/sun.svg);
+    mask-size: 100vmin;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
