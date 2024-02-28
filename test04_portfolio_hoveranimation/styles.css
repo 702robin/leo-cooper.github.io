@@ -1,0 +1,12 @@
+.hero {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vh;
+
+    display: flex;
+    position: static;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40vh;
+}
