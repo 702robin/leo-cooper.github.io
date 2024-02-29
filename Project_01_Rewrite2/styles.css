@@ -30,13 +30,28 @@ a:hover {
     cursor: url('http://www.rw-designer.com/cursor-extern.php?id=2323'), auto;
 }
 
-.imgs {
+.doc {
     display: flex;
-    line-height: 10vw;
-    justify-content: left;
+    flex: 0 0 50%;
+    flex-direction: column;
+    justify-content: right;
     text-align: left;
-    padding-left: 28vw;
-    padding-top: 5vw;
+    padding-left: 25vw;
+}
+
+.docimg {
+    width: 50vw;
+    padding-top: 5vh;
+    padding-right: 28vw;
+}
+
+p {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-variant-numeric: tabular-nums;
+    font-size: 24pt;
+    width: 50vw;
 }
 
 .first:after {
