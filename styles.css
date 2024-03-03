@@ -8,6 +8,10 @@ body {
     background-color: #002254;
 }
 
+* {
+    cursor: url('https://i.imgur.com/6wmyrkK.gif'),auto;
+}
+
 h1 {
     font-family: "Jacquarda Bastarda 9";
     font-size: 12vw;
@@ -18,6 +22,10 @@ h1 {
     top: -10vh;
     margin-left: 35px;
 
+}
+
+h1:hover {
+    color: red;
 }
 
 .sites {
