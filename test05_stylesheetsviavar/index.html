@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div class="block">
+    <h1>STYLESHEET TESTER</h1>
+
+    <p>
+        This is what you'll use for style sheets. Place each variable on all respective elements: <br>
+       
+        <br>
+
+        :root [this is an ultra-specific selector] { <br>
+        --red: #FF0120; <br>
+        --first: blue; <br>
+        --header-size: 4rem; <br>
+        --body-size: 24px; <br>
+        } <br>
+
+        <br>
+
+        h1 { <br>
+        color: var(--red); <br>
+        font-size: var(--header-size); <br>
+        } <br>
+
+        <br>
+
+        p { <br>
+        font-size: var(body-size); <br>
+        color: var(--first); <br>
+        } <br>
+
+        <br>
+
+        .block { <br>
+            display: flex; <br>
+            padding-left: 20vw; <br>
+            padding-top: 10vh; <br>
+            padding-right: 20vw; <br>
+        } <br>
+        
+    </p>
+</div>
+
+</body>
+</html>

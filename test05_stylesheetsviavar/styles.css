@@ -1,0 +1,23 @@
+:root {
+    --red: #FF0120;
+    --first: blue;
+    --header-size: 4rem;
+    --body-size: 24px;
+    }
+
+h1 {
+    color: var(--red);
+    font-size: var(--header-size);
+    }
+
+p {
+    font-size: var(body-size);
+    color: var(--first);
+    }
+
+.block {
+    display: flex;
+    padding-left: 20vw;
+    padding-top: 10vh;
+    padding-right: 20vw;
+}
