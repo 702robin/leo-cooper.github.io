@@ -1,6 +1,30 @@
-* {
-    cursor: url(https://github.com/702robin/702robin.github.io/blob/89344990aa207e9884d31c3e4365772010f2105c/test04_portfolio_hoveranimation/assets/Pikachu%20Link%20Cursor.cur), auto;
+.pika {
+    width: 100%;
+  height: 100px;
+  border: 1px solid grey;
+  animation: animate 0.25s infinite;
 }
+
+@keyframes animate{
+    0%{ 
+      cursor: url("https://static.wikia.nocookie.net/wii/images/8/89/Pikachu.jpg/revision/latest?cb=20140209205851"), auto;
+    }
+    20%{ 
+      cursor: url("https://static.wikia.nocookie.net/pokemon/images/6/6c/Char-pikachu.png/revision/latest/scale-to-width/360?cb=20190430034300"), auto;
+    }
+    40%{ 
+      cursor: url("https://i.pinimg.com/originals/f3/e1/b8/f3e1b8019f160f88531d8af792716b4f.png"), auto;
+    }
+    60%{ 
+      cursor: url("https://www.pokemoncenter.com/images/DAMRoot/High/10000/P9351_701E10017_02.jpg"), auto;
+    }
+    80%{ 
+      cursor: url("https://i.pinimg.com/736x/70/dc/39/70dc393c1dde6926c843cc4b460eb676.jpg"), auto;
+    }
+    100%{ 
+      cursor: url("https://i.etsystatic.com/31309176/r/il/d0f1dd/3470296538/il_570xN.3470296538_o99j.jpg"), auto;
+    }
+  }
 
 h1 {
     font-family: 'Helvetica', 'Arial', sans-serif;

@@ -1,0 +1,13 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 40vh;
+  }
+
+.herohead {
+    font-family: "Space Mono", monospace;
+    font-weight: 800;
+    font-style: regular;
+    font-size: 5vw;
+  }
+  
