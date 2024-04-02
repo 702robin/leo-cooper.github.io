@@ -5,3 +5,7 @@
     border: 1px solid black;
     display: none;
   }
+
+  img {
+    width: 50vw;
+  }
