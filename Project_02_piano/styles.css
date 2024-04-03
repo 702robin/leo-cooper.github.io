@@ -1,4 +1,7 @@
-
   img {
     width: 50vw;
+  }
+
+  audio{
+    visibility: hidden;
   }
