@@ -1,5 +1,12 @@
 //need to write array where all of these can be accessed
 //need to write a swtich that accesses different instruments 
+//FIX Mixing issue and peaking
+
+//document.querySelectorAll("class/id")[0] <value in the list  works like array a bit . to grab a group(an instrument)
+//let boxes = document.querySelectorAll(".box");
+//boxes [0].computedStyleMap.backgroundColor ="blue";
+
+let winds = ["wind1","wind2","wind3","wind4","wind5","wind6","wind7","wind8","wind9","wind10","wind11","wind12","wind13","wind14","wind15"];
 
 document.addEventListener('keydown', function(a) {
     if (a.keyCode == 65) {
