@@ -8,255 +8,347 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="scripts.js"></script>
 </head>
+
 <body>
-    <h1>This is the piano</h1>
+    <h1>MultiSynth</h1>
 
-<b>winds</b>
-<div class="winds">
-    <audio id="wind1" controls>
-        <source src="./assets/wind/wind1.wav" type="audio/wav">
-    </audio>
-    <audio id="wind2" controls>
-        <source src="./assets/wind/wind2.wav" type="audio/wav">
-    </audio>
-    <audio id="wind3" controls>
-        <source src="./assets/wind/wind3.wav" type="audio/wav">
-    </audio>
-    <audio id="wind4" controls>
-        <source src="./assets/wind/wind4.wav" type="audio/wav">
-    </audio>
-    <audio id="wind5" controls>
-        <source src="./assets/wind/wind5.wav" type="audio/wav">
-    </audio>
-    <audio id="wind6" controls>
-        <source src="./assets/wind/wind6.wav" type="audio/wav">
-    </audio>
-    <audio id="wind7" controls>
-        <source src="./assets/wind/wind7.wav" type="audio/wav">
-    </audio>
-    <audio id="wind8" controls>
-        <source src="./assets/wind/wind8.wav" type="audio/wav">
-    </audio>
-    <audio id="wind9" controls>
-        <source src="./assets/wind/wind9.wav" type="audio/wav">
-    </audio>
-    <audio id="wind10" controls>
-        <source src="./assets/wind/wind10.wav" type="audio/wav">
-    </audio>
-    <audio id="wind11" controls>
-        <source src="./assets/wind/wind11.wav" type="audio/wav">
-    </audio>
-    <audio id="wind12" controls>
-        <source src="./assets/wind/wind12.wav" type="audio/wav">
-    </audio>
-    <audio id="wind13" controls>
-        <source src="./assets/wind/wind13.wav" type="audio/wav">
-    </audio>
-    <audio id="wind14" controls>
-        <source src="./assets/wind/wind14.wav" type="audio/wav">
-    </audio>
-    <audio id="wind15" controls>
-        <source src="./assets/wind/wind15.wav" type="audio/wav">
-    </audio>
-</div>
 
-<b>peaks</b>
-<div class="peaks">
-    <audio id="wind1" controls>
-        <source src="./assets/wind/wind1.wav" type="audio/wav">
-    </audio>
-    <audio id="wind2" controls>
-        <source src="./assets/wind/wind2.wav" type="audio/wav">
-    </audio>
-    <audio id="wind3" controls>
-        <source src="./assets/wind/wind3.wav" type="audio/wav">
-    </audio>
-    <audio id="wind4" controls>
-        <source src="./assets/wind/wind4.wav" type="audio/wav">
-    </audio>
-    <audio id="wind5" controls>
-        <source src="./assets/wind/wind5.wav" type="audio/wav">
-    </audio>
-    <audio id="wind6" controls>
-        <source src="./assets/wind/wind6.wav" type="audio/wav">
-    </audio>
-    <audio id="wind7" controls>
-        <source src="./assets/wind/wind7.wav" type="audio/wav">
-    </audio>
-    <audio id="wind8" controls>
-        <source src="./assets/wind/wind8.wav" type="audio/wav">
-    </audio>
-    <audio id="wind9" controls>
-        <source src="./assets/wind/wind9.wav" type="audio/wav">
-    </audio>
-    <audio id="wind10" controls>
-        <source src="./assets/wind/wind10.wav" type="audio/wav">
-    </audio>
-    <audio id="wind11" controls>
-        <source src="./assets/wind/wind11.wav" type="audio/wav">
-    </audio>
-    <audio id="wind12" controls>
-        <source src="./assets/wind/wind12.wav" type="audio/wav">
-    </audio>
-    <audio id="wind13" controls>
-        <source src="./assets/wind/wind13.wav" type="audio/wav">
-    </audio>
-    <audio id="wind14" controls>
-        <source src="./assets/wind/wind14.wav" type="audio/wav">
-    </audio>
-    <audio id="wind15" controls>
-        <source src="./assets/wind/wind15.wav" type="audio/wav">
-    </audio>
-</div>
 
-<b>harps</b>
-<div class="harps">
-    <audio id="wind1" controls>
-        <source src="./assets/wind/wind1.wav" type="audio/wav">
-    </audio>
-    <audio id="wind2" controls>
-        <source src="./assets/wind/wind2.wav" type="audio/wav">
-    </audio>
-    <audio id="wind3" controls>
-        <source src="./assets/wind/wind3.wav" type="audio/wav">
-    </audio>
-    <audio id="wind4" controls>
-        <source src="./assets/wind/wind4.wav" type="audio/wav">
-    </audio>
-    <audio id="wind5" controls>
-        <source src="./assets/wind/wind5.wav" type="audio/wav">
-    </audio>
-    <audio id="wind6" controls>
-        <source src="./assets/wind/wind6.wav" type="audio/wav">
-    </audio>
-    <audio id="wind7" controls>
-        <source src="./assets/wind/wind7.wav" type="audio/wav">
-    </audio>
-    <audio id="wind8" controls>
-        <source src="./assets/wind/wind8.wav" type="audio/wav">
-    </audio>
-    <audio id="wind9" controls>
-        <source src="./assets/wind/wind9.wav" type="audio/wav">
-    </audio>
-    <audio id="wind10" controls>
-        <source src="./assets/wind/wind10.wav" type="audio/wav">
-    </audio>
-    <audio id="wind11" controls>
-        <source src="./assets/wind/wind11.wav" type="audio/wav">
-    </audio>
-    <audio id="wind12" controls>
-        <source src="./assets/wind/wind12.wav" type="audio/wav">
-    </audio>
-    <audio id="wind13" controls>
-        <source src="./assets/wind/wind13.wav" type="audio/wav">
-    </audio>
-    <audio id="wind14" controls>
-        <source src="./assets/wind/wind14.wav" type="audio/wav">
-    </audio>
-    <audio id="wind15" controls>
-        <source src="./assets/wind/wind15.wav" type="audio/wav">
-    </audio>
-</div>
+<div id="instruments">
 
-<b>pads</b>
-<div class="pads">
-    <audio id="wind1" controls>
-        <source src="./assets/wind/wind1.wav" type="audio/wav">
+    <b>winds</b>
+        <div id="winds">
+        <audio id="wind1" controls>
+            <source src="./assets/wind/wind1.wav" type="audio/wav">
+        </audio>
+        <audio id="wind2" controls>
+            <source src="./assets/wind/wind2.wav" type="audio/wav">
+        </audio>
+        <audio id="wind3" controls>
+            <source src="./assets/wind/wind3.wav" type="audio/wav">
+        </audio>
+        <audio id="wind4" controls>
+            <source src="./assets/wind/wind4.wav" type="audio/wav">
+        </audio>
+        <audio id="wind5" controls>
+            <source src="./assets/wind/wind5.wav" type="audio/wav">
+        </audio>
+        <audio id="wind6" controls>
+            <source src="./assets/wind/wind6.wav" type="audio/wav">
+        </audio>
+        <audio id="wind7" controls>
+            <source src="./assets/wind/wind7.wav" type="audio/wav">
+        </audio>
+        <audio id="wind8" controls>
+            <source src="./assets/wind/wind8.wav" type="audio/wav">
+        </audio>
+        <audio id="wind9" controls>
+            <source src="./assets/wind/wind9.wav" type="audio/wav">
+        </audio>
+        <audio id="wind10" controls>
+            <source src="./assets/wind/wind10.wav" type="audio/wav">
+        </audio>
+        <audio id="wind11" controls>
+            <source src="./assets/wind/wind11.wav" type="audio/wav">
+        </audio>
+        <audio id="wind12" controls>
+            <source src="./assets/wind/wind12.wav" type="audio/wav">
+        </audio>
+        <audio id="wind13" controls>
+            <source src="./assets/wind/wind13.wav" type="audio/wav">
+        </audio>
+        <audio id="wind14" controls>
+            <source src="./assets/wind/wind14.wav" type="audio/wav">
+        </audio>
+        <audio id="wind15" controls>
+            <source src="./assets/wind/wind15.wav" type="audio/wav">
+        </audio>
+    </div>
+
+    <b>peaks</b>
+<div id="peaks">
+    <audio id="peak1" controls>
+        <source src="./assets/peak/peak1.wav" type="audio/wav">
     </audio>
-    <audio id="wind2" controls>
-        <source src="./assets/wind/wind2.wav" type="audio/wav">
+    <audio id="peak2" controls>
+        <source src="./assets/peak/peak2.wav" type="audio/wav">
     </audio>
-    <audio id="wind3" controls>
-        <source src="./assets/wind/wind3.wav" type="audio/wav">
+    <audio id="peak3" controls>
+        <source src="./assets/peak/peak3.wav" type="audio/wav">
     </audio>
-    <audio id="wind4" controls>
-        <source src="./assets/wind/wind4.wav" type="audio/wav">
+    <audio id="peak4" controls>
+        <source src="./assets/peak/peak4.wav" type="audio/wav">
     </audio>
-    <audio id="wind5" controls>
-        <source src="./assets/wind/wind5.wav" type="audio/wav">
+    <audio id="peak5" controls>
+        <source src="./assets/peak/peak5.wav" type="audio/wav">
     </audio>
-    <audio id="wind6" controls>
-        <source src="./assets/wind/wind6.wav" type="audio/wav">
+    <audio id="peak6" controls>
+        <source src="./assets/peak/peak6.wav" type="audio/wav">
     </audio>
-    <audio id="wind7" controls>
-        <source src="./assets/wind/wind7.wav" type="audio/wav">
+    <audio id="peak7" controls>
+        <source src="./assets/peak/peak7.wav" type="audio/wav">
     </audio>
-    <audio id="wind8" controls>
-        <source src="./assets/wind/wind8.wav" type="audio/wav">
+    <audio id="peak8" controls>
+        <source src="./assets/peak/peak8.wav" type="audio/wav">
     </audio>
-    <audio id="wind9" controls>
-        <source src="./assets/wind/wind9.wav" type="audio/wav">
+    <audio id="peak9" controls>
+        <source src="./assets/peak/peak9.wav" type="audio/wav">
     </audio>
-    <audio id="wind10" controls>
-        <source src="./assets/wind/wind10.wav" type="audio/wav">
+    <audio id="peak10" controls>
+        <source src="./assets/peak/peak10.wav" type="audio/wav">
     </audio>
-    <audio id="wind11" controls>
-        <source src="./assets/wind/wind11.wav" type="audio/wav">
+    <audio id="peak11" controls>
+        <source src="./assets/peak/peak11.wav" type="audio/wav">
     </audio>
-    <audio id="wind12" controls>
-        <source src="./assets/wind/wind12.wav" type="audio/wav">
+    <audio id="peak12" controls>
+        <source src="./assets/peak/peak12.wav" type="audio/wav">
     </audio>
-    <audio id="wind13" controls>
-        <source src="./assets/wind/wind13.wav" type="audio/wav">
+    <audio id="peak13" controls>
+        <source src="./assets/peak/peak13.wav" type="audio/wav">
     </audio>
-    <audio id="wind14" controls>
-        <source src="./assets/wind/wind14.wav" type="audio/wav">
+    <audio id="peak14" controls>
+        <source src="./assets/peak/peak14.wav" type="audio/wav">
     </audio>
-    <audio id="wind15" controls>
-        <source src="./assets/wind/wind15.wav" type="audio/wav">
+    <audio id="peak15" controls>
+        <source src="./assets/peak/peak15.wav" type="audio/wav">
     </audio>
 </div>
 
 
-<b>strings</b>
-<div class="strings">
-    <audio id="wind1" controls>
-        <source src="./assets/wind/wind1.wav" type="audio/wav">
-    </audio>
-    <audio id="wind2" controls>
-        <source src="./assets/wind/wind2.wav" type="audio/wav">
-    </audio>
-    <audio id="wind3" controls>
-        <source src="./assets/wind/wind3.wav" type="audio/wav">
-    </audio>
-    <audio id="wind4" controls>
-        <source src="./assets/wind/wind4.wav" type="audio/wav">
-    </audio>
-    <audio id="wind5" controls>
-        <source src="./assets/wind/wind5.wav" type="audio/wav">
-    </audio>
-    <audio id="wind6" controls>
-        <source src="./assets/wind/wind6.wav" type="audio/wav">
-    </audio>
-    <audio id="wind7" controls>
-        <source src="./assets/wind/wind7.wav" type="audio/wav">
-    </audio>
-    <audio id="wind8" controls>
-        <source src="./assets/wind/wind8.wav" type="audio/wav">
-    </audio>
-    <audio id="wind9" controls>
-        <source src="./assets/wind/wind9.wav" type="audio/wav">
-    </audio>
-    <audio id="wind10" controls>
-        <source src="./assets/wind/wind10.wav" type="audio/wav">
-    </audio>
-    <audio id="wind11" controls>
-        <source src="./assets/wind/wind11.wav" type="audio/wav">
-    </audio>
-    <audio id="wind12" controls>
-        <source src="./assets/wind/wind12.wav" type="audio/wav">
-    </audio>
-    <audio id="wind13" controls>
-        <source src="./assets/wind/wind13.wav" type="audio/wav">
-    </audio>
-    <audio id="wind14" controls>
-        <source src="./assets/wind/wind14.wav" type="audio/wav">
-    </audio>
-    <audio id="wind15" controls>
-        <source src="./assets/wind/wind15.wav" type="audio/wav">
-    </audio>
+    <b>harps</b>
+        <div id="harps">
+        <audio id="wind1" controls>
+            <source src="./assets/wind/wind1.wav" type="audio/wav">
+        </audio>
+        <audio id="wind2" controls>
+            <source src="./assets/wind/wind2.wav" type="audio/wav">
+        </audio>
+        <audio id="wind3" controls>
+            <source src="./assets/wind/wind3.wav" type="audio/wav">
+        </audio>
+        <audio id="wind4" controls>
+            <source src="./assets/wind/wind4.wav" type="audio/wav">
+        </audio>
+        <audio id="wind5" controls>
+            <source src="./assets/wind/wind5.wav" type="audio/wav">
+        </audio>
+        <audio id="wind6" controls>
+            <source src="./assets/wind/wind6.wav" type="audio/wav">
+        </audio>
+        <audio id="wind7" controls>
+            <source src="./assets/wind/wind7.wav" type="audio/wav">
+        </audio>
+        <audio id="wind8" controls>
+            <source src="./assets/wind/wind8.wav" type="audio/wav">
+        </audio>
+        <audio id="wind9" controls>
+            <source src="./assets/wind/wind9.wav" type="audio/wav">
+        </audio>
+        <audio id="wind10" controls>
+            <source src="./assets/wind/wind10.wav" type="audio/wav">
+        </audio>
+        <audio id="wind11" controls>
+            <source src="./assets/wind/wind11.wav" type="audio/wav">
+        </audio>
+        <audio id="wind12" controls>
+            <source src="./assets/wind/wind12.wav" type="audio/wav">
+        </audio>
+        <audio id="wind13" controls>
+            <source src="./assets/wind/wind13.wav" type="audio/wav">
+        </audio>
+        <audio id="wind14" controls>
+            <source src="./assets/wind/wind14.wav" type="audio/wav">
+        </audio>
+        <audio id="wind15" controls>
+            <source src="./assets/wind/wind15.wav" type="audio/wav">
+        </audio>
+    </div>
+
+    <b>pads</b>
+        <div id="pads">
+        <audio id="wind1" controls>
+            <source src="./assets/wind/wind1.wav" type="audio/wav">
+        </audio>
+        <audio id="wind2" controls>
+            <source src="./assets/wind/wind2.wav" type="audio/wav">
+        </audio>
+        <audio id="wind3" controls>
+            <source src="./assets/wind/wind3.wav" type="audio/wav">
+        </audio>
+        <audio id="wind4" controls>
+            <source src="./assets/wind/wind4.wav" type="audio/wav">
+        </audio>
+        <audio id="wind5" controls>
+            <source src="./assets/wind/wind5.wav" type="audio/wav">
+        </audio>
+        <audio id="wind6" controls>
+            <source src="./assets/wind/wind6.wav" type="audio/wav">
+        </audio>
+        <audio id="wind7" controls>
+            <source src="./assets/wind/wind7.wav" type="audio/wav">
+        </audio>
+        <audio id="wind8" controls>
+            <source src="./assets/wind/wind8.wav" type="audio/wav">
+        </audio>
+        <audio id="wind9" controls>
+            <source src="./assets/wind/wind9.wav" type="audio/wav">
+        </audio>
+        <audio id="wind10" controls>
+            <source src="./assets/wind/wind10.wav" type="audio/wav">
+        </audio>
+        <audio id="wind11" controls>
+            <source src="./assets/wind/wind11.wav" type="audio/wav">
+        </audio>
+        <audio id="wind12" controls>
+            <source src="./assets/wind/wind12.wav" type="audio/wav">
+        </audio>
+        <audio id="wind13" controls>
+            <source src="./assets/wind/wind13.wav" type="audio/wav">
+        </audio>
+        <audio id="wind14" controls>
+            <source src="./assets/wind/wind14.wav" type="audio/wav">
+        </audio>
+        <audio id="wind15" controls>
+            <source src="./assets/wind/wind15.wav" type="audio/wav">
+        </audio>
+    </div>
+
+    <b>strings</b>
+        <div id="strings">
+        <audio id="wind1" controls>
+            <source src="./assets/wind/wind1.wav" type="audio/wav">
+        </audio>
+        <audio id="wind2" controls>
+            <source src="./assets/wind/wind2.wav" type="audio/wav">
+        </audio>
+        <audio id="wind3" controls>
+            <source src="./assets/wind/wind3.wav" type="audio/wav">
+        </audio>
+        <audio id="wind4" controls>
+            <source src="./assets/wind/wind4.wav" type="audio/wav">
+        </audio>
+        <audio id="wind5" controls>
+            <source src="./assets/wind/wind5.wav" type="audio/wav">
+        </audio>
+        <audio id="wind6" controls>
+            <source src="./assets/wind/wind6.wav" type="audio/wav">
+        </audio>
+        <audio id="wind7" controls>
+            <source src="./assets/wind/wind7.wav" type="audio/wav">
+        </audio>
+        <audio id="wind8" controls>
+            <source src="./assets/wind/wind8.wav" type="audio/wav">
+        </audio>
+        <audio id="wind9" controls>
+            <source src="./assets/wind/wind9.wav" type="audio/wav">
+        </audio>
+        <audio id="wind10" controls>
+            <source src="./assets/wind/wind10.wav" type="audio/wav">
+        </audio>
+        <audio id="wind11" controls>
+            <source src="./assets/wind/wind11.wav" type="audio/wav">
+        </audio>
+        <audio id="wind12" controls>
+            <source src="./assets/wind/wind12.wav" type="audio/wav">
+        </audio>
+        <audio id="wind13" controls>
+            <source src="./assets/wind/wind13.wav" type="audio/wav">
+        </audio>
+        <audio id="wind14" controls>
+            <source src="./assets/wind/wind14.wav" type="audio/wav">
+        </audio>
+        <audio id="wind15" controls>
+            <source src="./assets/wind/wind15.wav" type="audio/wav">
+        </audio>
+    </div>
+
 </div>
 
+<div id="sharps">
+
+    <div id="Csharp">
+        <p>C#</p>
+    </div>
+    
+    <div id="Dsharp">
+        <p>D#</p>
+    </div>
+
+    <div id="empty">
+        <p></p>
+    </div>
+
+    <div id="Fsharp">
+        <p>F#</p>
+    </div>
+
+    <div id="Gsharp">
+        <p>G#</p>
+    </div>
+
+    <div id="Asharp">
+        <p>A#</p>
+    </div>
+
+    <div id="empty">
+        <p></p>
+    </div>
+
+    <div id="Csharp">
+        <p>C#</p>
+    </div>
+    
+    <div id="D#">
+        <p>D#</p>
+    </div>
+</div>
+
+<div id="naturals">
+
+    <div id="C">
+        <p> C </p>
+    </div>
+    
+    <div id="D">
+        <p> D </p>
+    </div>
+
+    <div id="E">
+        <p> E </p>
+    </div>
+
+    <div id="F">
+        <p> F </p>
+    </div>
+
+    <div id="G">
+        <p> G </p>
+    </div>
+
+    <div id="A">
+        <p> A </p>
+    </div>
+
+    <div id="B">
+        <p> B </p>
+    </div>
+
+    <div id="C">
+        <p> C </p>
+    </div>
+
+    <div id="D">
+        <p> D </p>
+    </div>
+</div>
+
+<div id="triggers">
+    <span id="windsT">winds</span>
+    <span id="peaksT">peaks</span>
+    <span id="harpsT">harps</span>
+    <span id="padsT">pads</span>
+    <span id="stringsT">strings</span>
+</div>
 
     
 

@@ -1,7 +1,252 @@
+  h1 {
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+  }
+
   img {
     width: 50vw;
   }
 
-  /* audio{
-    visibility: hidden;
-  } */
+  body {
+    background-color: black;
+  }
+
+  p {
+    font-size: 1vw;
+  }
+
+  #triggers {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    justify-content: space-between;
+    margin-left: 29vw;
+    margin-right: 29vw;
+    margin-top: vh;
+    padding: 5vh;
+  }
+
+  #windsT:hover {
+    color: black;
+    background-color: white;
+    padding: 5px;
+  }
+
+  #windsT:press {
+    color: black;
+    background-color: white;
+    padding: 5px;
+  }
+
+  /* CSS code */
+#peaksT:hover {
+  color: black;
+  background-color: white;
+}
+
+#harpsT:hover {
+  color: black;
+  background-color: white;
+}
+
+#padsT:hover {
+  color: black;
+  background-color: white;
+}
+
+#stringsT:hover {
+  color: black;
+  background-color: white;
+}
+
+
+  #sharps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30vh;
+  }
+
+  #Csharp {
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  #Dsharp {
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #empty {
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+    margin: 1.5vw;
+
+    color: black;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+  }
+
+  #Fsharp {
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #Gsharp {
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #Asharp {
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #naturals {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #C {
+    justify-content: center;
+    text-align: center;
+    padding: 1.5vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #D {
+    justify-content: center;
+    text-align: center;
+    padding: 1.5vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #E {
+    justify-content: center;
+    text-align: center;
+    padding: 1.5vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #F {
+    justify-content: center;
+    text-align: center;
+    padding: 1.5vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #G {
+    justify-content: center;
+    text-align: center;
+    padding: 1.5vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #A {
+    justify-content: center;
+    text-align: center;
+    padding: 1.5vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  #B {
+    justify-content: center;
+    text-align: center;
+    padding: 1.5vw;
+    margin: .5vw;
+
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+  }
+
+  
+#instruments {
+  display: none;
+}
+
